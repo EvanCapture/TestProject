@@ -1,0 +1,17 @@
+{
+  "name": "document-generation-api",
+  "version": "1.0.0",
+  "description": "API for generating PowerPoint documents from Google Sheets data",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1",
+    "jszip": "^3.10.1",
+    "morgan": "^1.10.0"
+  }
+}
